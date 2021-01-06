@@ -22,10 +22,6 @@ Unique pricing options
 Unique reading position progress indicator
 
 Javascript Libraries:
-Flickity – Responsive content slider
-Fancybox – Responsive fullscreen galleries
-Advanced dropdowns – Mega-menu functionality, multi-level dropdowns
-Isotope – Filterable and sortable masonry layouts
 Jarallax – High-performance parallax and video background parallax
 Animate On Scroll – Dynamic, page-scrolling animations
 Video Backgrounds – Embed from Youtube, Vimeo or local
@@ -38,14 +34,14 @@ MailChimp integration for subscribe forms
 ion Rangeslider – Advanced and customisable range slider plugin
 SVGInjector – Makes working with SVGs easy by injecting SVG code into the page.
 
-- <b> Completely free to use and accessible, open source </b> 
- > It costs absolutely nothing to watch videos and complete exercizes. It is available anywhere with internet.
+- <b> Flickity </b> 
+ > Responsive content slider
    
-- <b> In depth lessons with transcripts and documentation </b>
- > Filler
+- <b> Fancybox </b>
+ > Responsive fullscreen galleries
    
-- <b> Wide variety of computer science subjects available </b>
- > There are videos about How the Internet Works, The History of HTML, and Introduction to HTML5, Introduction to CSS3, and many more topics. In addition, there are also videos on machine learning, data science, data analytics, and a day in life in computer science jobs. Walter is a continually growing app, so new subjects and videos are added regularly!
+- <b> Advanced dropdowns  </b>
+ > Mega-menu functionality, multi-level dropdowns
    
-- <b> You can learn and work at your own pace! </b>
- > Filler
+- <b> Isotope </b>
+ > Filterable and sortable masonry layouts
