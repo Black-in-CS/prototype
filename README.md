@@ -50,15 +50,14 @@ Javascript Libraries:
 - <b> Countdown </b> 
  > Count down to a specified date
    
-- <b> Google Maps API </b>
-   
-- <b> Google reCaptcha v2 integration </b>
-   
-- <b> MailChimp integration for subscribe forms </b>
-
 - <b> ion Rangeslider  </b> 
  > Advanced and customisable range slider plugin
    
 - <b> SVGInjector </b>
  > Makes working with SVGs easy by injecting SVG code into the page.
    
+- <b> Google Maps API </b>
+   
+- <b> Google reCaptcha v2 integration </b>
+   
+- <b> MailChimp integration for subscribe forms </b>
