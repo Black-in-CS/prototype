@@ -2,14 +2,11 @@
 Prototype/testing page of our website/pages!
 
 Based on the renowned front-end, mobile-first Bootstrap framework, as well as various Javascript-web libraries 
-General Highlights:
-
-Based on Bootstrap 4
-Fully working contact and subscribe forms with validation
-Use Bootstrap markup in your mega menu
-Live development environment powered by Browsersync
-Detailed documentation with code examples
-Prompt and friendly after-sales support
+## General Highlights:
+- Fully working contact and subscribe forms with validation
+- Use Bootstrap markup in your mega menu
+- Live development environment powered by Browsersync
+- Detailed documentation with code examples
 
 ## Design & CSS Highlights:
 - Fully responsive web design, mobile friendly
