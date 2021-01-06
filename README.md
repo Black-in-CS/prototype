@@ -11,15 +11,14 @@ Live development environment powered by Browsersync
 Detailed documentation with code examples
 Prompt and friendly after-sales support
 
-Design & CSS Highlights:
+### Design & CSS Highlights:
 - Fully responsive web design, mobile friendly
 - Fully dynamic colour schemes with SASS 
 - Font Awesome CSS icon pack 
 - Icon decoration elements
 - Icon divider elements 
 
-Javascript Libraries:
-
+### Javascript Libraries:
 - <b> Flickity </b> 
  > Responsive content slider
    
