@@ -62,8 +62,3 @@ Javascript Libraries:
 - <b> SVGInjector </b>
  > Makes working with SVGs easy by injecting SVG code into the page.
    
-- <b> Advanced dropdowns  </b>
- > Mega-menu functionality, multi-level dropdowns
-   
-- <b> Isotope </b>
- > Filterable and sortable masonry layouts
