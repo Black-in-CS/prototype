@@ -6,10 +6,7 @@ Based on the renowned front-end, mobile-first Bootstrap framework, as well as va
 > by Toba Ojo
 
 --------------------------------------------------------------------------------------------------------------
-
-
-
-
+<br><br><br>
 ## General Highlights:
 - Fully working contact and subscribe forms with validation
 - Bootstrap mega menu
