@@ -12,8 +12,8 @@ Detailed documentation with code examples
 Prompt and friendly after-sales support
 
 Design & CSS Highlights:
-- <b> Fully responsive </b> 
-- <b> Fully dynamic colour schemes with SASS </b> 
+- Fully responsive web design, mobile friendly
+- Fully dynamic colour schemes with SASS 
 - <b> Font Awesome CSS icon pack</b> 
 - <b> Icon decoration elements </b> 
 - <b> Icon divider elements </b> 
