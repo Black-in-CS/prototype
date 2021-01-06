@@ -34,7 +34,7 @@ Javascript Libraries:
    
 - <b> Isotope </b>
  > Filterable and sortable masonry layouts
-------------------------------------------------------------
+
 - <b> Jarallax  </b> 
  > High-performance parallax and video background parallax
    
