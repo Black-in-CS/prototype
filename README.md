@@ -22,23 +22,45 @@ Unique pricing options
 Unique reading position progress indicator
 
 Javascript Libraries:
-Jarallax – High-performance parallax and video background parallax
-Animate On Scroll – Dynamic, page-scrolling animations
-Video Backgrounds – Embed from Youtube, Vimeo or local
-Typed Text – Simulated typing effect
-Countdown – Count down to a specified date
-Twitter Fetcher – Add dynamic news feeds to your site
-Google Maps API integration
-Google reCaptcha v2 integration
-MailChimp integration for subscribe forms
-ion Rangeslider – Advanced and customisable range slider plugin
-SVGInjector – Makes working with SVGs easy by injecting SVG code into the page.
 
 - <b> Flickity </b> 
  > Responsive content slider
    
 - <b> Fancybox </b>
  > Responsive fullscreen galleries
+   
+- <b> Advanced dropdowns  </b>
+ > Mega-menu functionality, multi-level dropdowns
+   
+- <b> Isotope </b>
+ > Filterable and sortable masonry layouts
+------------------------------------------------------------
+- <b> Jarallax  </b> 
+ > High-performance parallax and video background parallax
+   
+- <b> Animate On Scroll </b>
+ > Dynamic, page-scrolling animations
+   
+- <b> Video Backgrounds </b>
+ > Embed from Youtube, Vimeo or local
+   
+- <b> Typed Text </b>
+ > Simulated typing effect
+
+- <b> Countdown </b> 
+ > Count down to a specified date
+   
+- <b> Google Maps API </b>
+   
+- <b> Google reCaptcha v2 integration </b>
+   
+- <b> MailChimp integration for subscribe forms </b>
+
+- <b> ion Rangeslider  </b> 
+ > Advanced and customisable range slider plugin
+   
+- <b> SVGInjector </b>
+ > Makes working with SVGs easy by injecting SVG code into the page.
    
 - <b> Advanced dropdowns  </b>
  > Mega-menu functionality, multi-level dropdowns
