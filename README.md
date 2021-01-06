@@ -2,6 +2,10 @@
 Prototype/testing page of our website/pages!
 
 Based on the renowned front-end, mobile-first Bootstrap framework, as well as various Javascript-web libraries 
+
+> by Toba Ojo
+
+--------------------------------------------------------------------------------------------------------------
 ## General Highlights:
 - Fully working contact and subscribe forms with validation
 - Bootstrap mega menu
