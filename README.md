@@ -9,7 +9,6 @@ Based on the renowned front-end, mobile-first Bootstrap framework, as well as va
 <br><br>
 ## General Highlights:
 - Fully working contact and subscribe forms with validation
-- Bootstrap mega menu
 - Live development environment powered by Browsersync
 - Open source, detailed documentation with code examples
 
