@@ -120,6 +120,7 @@ html {
   background-color: #d9d9d9;
   border: 12px solid #d9d9d9;
   border-radius: 25px;
+  text-decoration: none;
 }
 
 .arrow {
