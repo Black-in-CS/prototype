@@ -14,7 +14,6 @@ Based on the renowned front-end, mobile-first Bootstrap framework, as well as va
 
 ## Design & CSS Highlights:
 - Fully responsive web design, mobile friendly
-- Fully dynamic colour schemes with SASS 
 - Font Awesome CSS icon pack 
 - SVG decoration elements
 - SVG divider elements 
