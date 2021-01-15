@@ -19,6 +19,20 @@ html {
     height: 100%;
 }
 
+ .navannounce {
+  font-familY: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400px;
+  color: white !important;
+  background-color: black !important;
+  text-align: center;
+  content-align: center;
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  word-wrap: break;
+}
+
 .nav-menu-top {
     padding-top: 25px;   
 }
@@ -54,6 +68,7 @@ html {
 .nav-item .nav-link:hover::after {
     transform: scaleX(.3); 
 }
+
 .hero-section {
     height: 100%;
     padding-top: 105px;
@@ -74,7 +89,7 @@ html {
 .heroimage {
   background-image:
 }
-/*** Custom CSS ***/
+
 .heroheader {
   font-family: 'Inter', sans-serif; 
   font-weight: 900 !important; 
@@ -88,6 +103,7 @@ html {
 }
 
 .herocontent {
+    font-size: 22px;
     font-family: 'Inter', sans-serif; 
     font-weight: 400 !important;  
     color: rgb(85, 85, 85);
@@ -101,8 +117,7 @@ html {
     outline-color: rgb(85, 85, 85);
     outline-style: none;
     outline-width: 0px;    
-    margin-left: 4%;
-    font-size: 22px;
+    margin-left: 4%;  
 }
 
 .highlight {
@@ -110,22 +125,9 @@ html {
   display: inline;
 }
 
- .navannounce {
-  font-familY: 'Inter', sans-serif;
-  font-size: 15px;
-  font-weight: 400px;
-  color: white !important;
-  background-color: black !important;
-  text-align: center;
-  content-align: center;
-  text-decoration: none;
-  height: auto;
-  width: auto;
-  word-wrap: break;
-}
 
 .more-link {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   color: #000;
   transition: .2s ease-in;
@@ -152,6 +154,7 @@ html {
 }
 
 .heromore {
+    font-size: 20px;
     font-family: 'Inter', sans-serif; 
     font-weight: 400 !important;  
     display: block;
@@ -159,5 +162,4 @@ html {
     vertical-align: baseline;
     box-sizing: border-box;
     margin-left: 4%;
-    font-size: 20px;
 }
