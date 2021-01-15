@@ -77,7 +77,8 @@ html {
 /*** Custom CSS ***/
 .heroheader {
   font-family: 'Inter', sans-serif; 
-  font-weight: 900 !important;  
+  font-weight: 900 !important; 
+  font-size: 46px;
   color: #eb8d3b;
   display: block;
   margin-left: 4%;
@@ -91,7 +92,7 @@ html {
     font-weight: 400 !important;  
     color: rgb(85, 85, 85);
     display: block;
-    padding-bottom: 15px;
+    padding-bottom: 105px;
     line-height: 24px;
     vertical-align: baseline;
     box-sizing: border-box;
@@ -101,7 +102,7 @@ html {
     outline-style: none;
     outline-width: 0px;    
     margin-left: 4%;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .highlight {
