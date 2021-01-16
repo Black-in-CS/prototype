@@ -46,6 +46,7 @@ html {
     font-size: 18px;
     background-color: transparent;
     padding-bottom: calc(1px * 2);
+    padding-left: 15px !important;
     position: relative;
     transition: .3s ease;
     cursor: pointer;
