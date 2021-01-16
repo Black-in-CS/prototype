@@ -45,8 +45,11 @@ html {
     position: relative;
     transition: .3s ease;
     cursor: pointer;
-    border-color: rgba(0, 0, 0, 0);
-    
+    border-color: rgba(0, 0, 0, 0); 
+}
+
+.nav-item .nav-link:hover {
+  color: #ff9c45 !important; 
 }
 
 
