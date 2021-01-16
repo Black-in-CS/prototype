@@ -24,7 +24,7 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding-top: 15px;
   background: black;
   color: white;
   text-decoration: none;
@@ -38,7 +38,7 @@ html {
 }
 
 .nav-menu-top {
-    padding-top: 55px;      
+    padding-top: 75px;      
 }
 
 .nav-item .nav-link  {
