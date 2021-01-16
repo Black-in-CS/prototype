@@ -19,18 +19,22 @@ html {
     height: 100%;
 }
 
- .navannounce {
+.announcement {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  content-align: center;
+  vertical-align: middle;
+  font-size: 0.8em;
   font-familY: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400px;
-  color: white !important;
-  background-color: black !important;
-  text-align: center;
-  content-align: center;
-  text-decoration: none;
-  height: auto;
-  width: auto;
-  word-wrap: break;
 }
 
 .nav-menu-top {
