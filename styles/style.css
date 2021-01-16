@@ -97,6 +97,9 @@ html {
   color: #eb8d3b;
   display: block;
   margin-left: 4%;
+  width: 686px;
+  height: 150px;
+  margin-right: 18.315%;
   padding-bottom: 25px;
   line-height: 53px;
   vertical-align: baseline;
@@ -108,16 +111,14 @@ html {
     font-weight: 400 !important;  
     color: rgb(85, 85, 85);
     display: block;
-    padding-bottom: 105px;
+    padding-top: 26.25px;
+    padding-bottom: 95px;
     line-height: 24px;
     vertical-align: baseline;
     box-sizing: border-box;
     height: 96px;
-    width: 686px;
-    outline-color: rgb(85, 85, 85);
-    outline-style: none;
-    outline-width: 0px;    
-    margin-left: 4%;  
+    width: 686px;    
+    margin-left: 4%;
 }
 
 .highlight {
