@@ -39,7 +39,7 @@ html {
 
 .nav-item .nav-link  {
     font-family: 'Inter', sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     background-color: transparent;
     padding-bottom: calc(1px * 2);
     position: relative;
