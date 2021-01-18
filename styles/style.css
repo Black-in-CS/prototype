@@ -9,6 +9,10 @@ License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
+
+
+
+@media (min-width: 768px) {  
 body {
     width: 100%;
     height: 100%;
@@ -19,44 +23,26 @@ html {
     height: 100%;
 }
 
-.announcement {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding-top: 15px;
-  background: black;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  content-align: center;
-  vertical-align: middle;
-  font-size: 0.8em;
-  font-familY: 'Inter', sans-serif;
-  font-size: 15px;
-  font-weight: 400px;
-}
-
 .nav-menu-top {
-    padding-top: 75px;      
+    padding-top: 75px;   
 }
 
-.nav-item .nav-link  {
+.nav-item  .nav-link  {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     background-color: transparent;
     padding-bottom: calc(1px * 2);
-    padding-left: 15px !important;
     position: relative;
     transition: .3s ease;
+    transition: .7s ease;
     cursor: pointer;
-    border-color: rgba(0, 0, 0, 0); 
+    border-color: rgba(0, 0, 0, 0);
+    
 }
-
 .nav-item .nav-link:hover {
-  color: #ff9c45 !important; 
+  color: #ff9c45 !important;
+  
 }
-
 
 .nav-item .nav-link::after {
     display: block;
@@ -77,9 +63,11 @@ html {
     transform: scaleX(.3); 
 }
 
+/** main **/
+
 .hero-section {
-    height: 100%;
-    padding-top: 105px;
+    height: 100vh;
+    padding-top: 85px;
     align-content: left;
     text-align: left;
     background: #fff;
@@ -95,13 +83,14 @@ html {
 }
 
 .heroimage {
+  display: inline;
   background-image:
 }
-
+/*** Custom CSS ***/
 .heroheader {
   font-family: 'Inter', sans-serif; 
   font-weight: 900 !important; 
-  font-size: 46px;
+  font-size: 42px;
   color: #eb8d3b;
   display: block;
   margin-left: 4%;
@@ -114,7 +103,7 @@ html {
 }
 
 .herocontent {
-    font-size: 22px;
+    font-size: 21px;
     font-family: 'Inter', sans-serif; 
     font-weight: 400 !important;  
     color: rgb(85, 85, 85);
@@ -133,6 +122,208 @@ html {
   background-color: rgba(255, 142, 136, 0.2);
   display: inline;
 }
+
+
+
+.more-link {
+  font-size: 19px;
+  font-weight: 600;
+  color: #000;
+  transition: .2s ease-in;
+  background-color: #d9d9d9;
+  border: 12px solid #d9d9d9;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.arrow {
+  color: #000;
+  display: inline;
+  padding-left: 2px;
+  transition: .12s ease-in;
+}
+
+.more-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+.more-link:hover .arrow{
+    color: #000;
+    padding-left: 8px;
+}
+
+.heromore {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400 !important;  
+    display: block;
+    line-height: 24px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    margin-left: 4%;
+    font-size: 20px;
+}
+
+.announcement {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-top: 15px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  content-align: center;
+  vertical-align: middle;
+  font-size: 0.8em;
+  font-familY: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+@media (min-width: 1200px) {  
+  .container {
+      max-width: 1150px; 
+  } 
+.himage {
+  float: right;
+  width: 424px; 
+  padding-top: 0px;
+  margin-right: -2%;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-menu-top {
+    padding-top: 75px; 
+}
+
+.nav-item  .nav-link  {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    padding-bottom: calc(1px * 2);
+    position: relative;
+    transition: .3s ease;
+    transition: .7s ease;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0);
+    
+}
+.nav-item .nav-link:hover {
+  color: #ff9c45 !important;
+  
+}
+
+.nav-item .nav-link::after {
+    display: block;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    transform-origin: bottom center;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: .3s ease;
+    content: "";
+}
+
+
+.nav-item .nav-link:hover::after {
+    transform: scaleX(.3); 
+}
+
+/** main **/
+
+.hero-section {
+    height: 100vh;
+    padding-top: 0px;
+    text-align: left;
+    background: #fff;
+    width: 100% !important;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    width: 100% !important;
+}
+
+
+}
+/*** Custom CSS ***/
+.heroheader {
+  font-family: 'Inter', sans-serif; 
+  font-weight: 900 !important; 
+  font-size: 46px;
+  color: #eb8d3b;
+  display: block;
+  margin-left: 4%;
+  /** width: 686px; **/
+  height: 150px;
+  margin-right: 18.315%;
+  padding-bottom: 25px;
+  line-height: 53px;
+  vertical-align: baseline;
+  padding-top: 65px !important;
+}
+
+.herocontent {
+    font-size: 21px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400 !important;     
+  padding-top: 95px !important;
+    color: rgb(85, 85, 85);
+    display: block;
+    padding-top: 26.25px;
+    padding-bottom: 105px;
+    line-height: 31.5px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    height: 96px;
+    width: 686px;    
+    margin-left: 4%;
+}
+
+.highlight {
+  background-color: rgba(255, 142, 136, 0.2);
+  display: inline;
+}
+
 
 
 .more-link {
@@ -163,7 +354,6 @@ html {
 }
 
 .heromore {
-    font-size: 20px;
     font-family: 'Inter', sans-serif; 
     font-weight: 400 !important;  
     display: block;
@@ -171,4 +361,103 @@ html {
     vertical-align: baseline;
     box-sizing: border-box;
     margin-left: 4%;
+    font-size: 20px;
 }
+
+.announcement {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-top: 15px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  content-align: center;
+  vertical-align: middle;
+  font-size: 0.8em;
+  font-familY: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Responsive 
+@media only screen and (max-width: 767px) {
+
+  .hero-section {
+    height: 100vh;
+    padding-top: 95px;
+    background: #fff;
+}
+
+.heroheader {
+  font-size: 35px;
+  margin-left: 2%;
+  line-height: 53px;
+  color: #eb8d3b;
+  padding-bottom: 0px;
+  height: 150px;
+  width: 100%;
+  display: block;
+  padding-bottom: 0px;
+  line-height: 53px;
+  vertical-align: baseline;
+}
+  
+.herocontent {
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 55px;
+    line-height: 24px;
+    height: 96px;
+    width: 100%; 
+    margin-left: 2%;
+  
+  }
+  
+  
+.heromore {
+    padding-top: 20px;
+    display: inline-block;
+    margin-left: 0;
+    margin-left: 2%;
+    font-size: 20px;
+}
+  
+ .more-link {
+  font-size: 16px; 
+}
+
+}
+**/
+
+
+
+
+
+
+
+
+
