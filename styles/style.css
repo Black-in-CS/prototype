@@ -9,203 +9,7 @@ License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-
-
-
-@media (min-width: 768px) {  
-body {
-    width: 100%;
-    height: 100%;
-}
-
-html {
-    width: 100%;
-    height: 100%;
-}
-
-.nav-menu-top {
-    padding-top: 75px;   
-}
-
-.nav-item  .nav-link  {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    background-color: transparent;
-    padding-bottom: calc(1px * 2);
-    position: relative;
-    transition: .3s ease;
-    transition: .7s ease;
-    cursor: pointer;
-    border-color: rgba(0, 0, 0, 0);
-    
-}
-.nav-item .nav-link:hover {
-  color: #ff9c45 !important;
-  
-}
-
-.nav-item .nav-link::after {
-    display: block;
-    background-color: black;
-    width: 100%;
-    left: 0;
-    transform-origin: bottom center;
-    height: 2px;
-    position: absolute;
-    bottom: 0;
-    transform: scaleX(0);
-    transition: .3s ease;
-    content: "";
-}
-
-
-.nav-item .nav-link:hover::after {
-    transform: scaleX(.3); 
-}
-
-/** main **/
-
-.hero-section {
-    height: 100vh;
-    padding-top: 85px;
-    align-content: left;
-    text-align: left;
-    background: #fff;
-    width: 100% !important;
-}
-
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-    width: 100% !important;
-}
-
-.heroimage {
-  display: inline;
-  background-image:
-}
-/*** Custom CSS ***/
-.heroheader {
-  font-family: 'Inter', sans-serif; 
-  font-weight: 900 !important; 
-  font-size: 42px;
-  color: #eb8d3b;
-  display: block;
-  margin-left: 4%;
-  width: 686px;
-  height: 150px;
-  margin-right: 18.315%;
-  padding-bottom: 25px;
-  line-height: 53px;
-  vertical-align: baseline;
-}
-
-.herocontent {
-    font-size: 21px;
-    font-family: 'Inter', sans-serif; 
-    font-weight: 400 !important;  
-    color: rgb(85, 85, 85);
-    display: block;
-    padding-top: 26.25px;
-    padding-bottom: 95px;
-    line-height: 24px;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    height: 96px;
-    width: 686px;    
-    margin-left: 4%;
-}
-
-.highlight {
-  background-color: rgba(255, 142, 136, 0.2);
-  display: inline;
-}
-
-
-
-.more-link {
-  font-size: 19px;
-  font-weight: 600;
-  color: #000;
-  transition: .2s ease-in;
-  background-color: #d9d9d9;
-  border: 12px solid #d9d9d9;
-  border-radius: 25px;
-  text-decoration: none;
-}
-
-.arrow {
-  color: #000;
-  display: inline;
-  padding-left: 2px;
-  transition: .12s ease-in;
-}
-
-.more-link:hover {
-  color: #000;
-  text-decoration: none;
-}
-.more-link:hover .arrow{
-    color: #000;
-    padding-left: 8px;
-}
-
-.heromore {
-    font-family: 'Inter', sans-serif; 
-    font-weight: 400 !important;  
-    display: block;
-    line-height: 24px;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    margin-left: 4%;
-    font-size: 20px;
-}
-
-.announcement {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding-top: 15px;
-  background: black;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  content-align: center;
-  vertical-align: middle;
-  font-size: 0.8em;
-  font-familY: 'Inter', sans-serif;
-  font-size: 15px;
-  font-weight: 400px;
-}
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-@media (min-width: 1200px) {  
+ @media (min-width: 1200px) {  
   .container {
       max-width: 1150px; 
   } 
@@ -268,7 +72,7 @@ html {
 /** main **/
 
 .hero-section {
-    height: 85vh;
+    height: 85%;
     padding-top: 0px;
     text-align: left;
     background: #fff;
@@ -276,10 +80,10 @@ html {
 }
 
 .about-section {
-    height: 100%;
+    height: 63%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background-color: #eb8d3b;
     width: 100% !important;
 }
 
@@ -306,7 +110,7 @@ html {
     font-size: 21px;
     font-family: 'Inter', sans-serif; 
     font-weight: 400 !important;     
-    padding-top: 95px !important;
+  padding-top: 95px !important;
     color: rgb(85, 85, 85);
     display: block;
     padding-top: 26.25px;
@@ -381,79 +185,47 @@ html {
   font-size: 15px;
   font-weight: 400px;
 }
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** Responsive 
-@media only screen and (max-width: 767px) {
-
-  .hero-section {
-    height: 100vh;
-    padding-top: 95px;
-    background: #fff;
-}
-
-.heroheader {
-  font-size: 35px;
-  margin-left: 2%;
-  line-height: 53px;
-  color: #eb8d3b;
-  padding-bottom: 0px;
-  height: 150px;
-  width: 100%;
+.aboutheader {
+  font-family:  'Telegraph', sans-serif; 
+  font-weight: 900 !important; 
+  font-size: 46px;
+  color: #fff;
+  text-align: center;
   display: block;
+  /** width: 686px; **/
+  height: 550px;
   padding-bottom: 0px;
   line-height: 53px;
-  vertical-align: baseline;
-}
-  
-.herocontent {
-    font-size: 18px;
-    padding-top: 25px;
-    padding-bottom: 55px;
-    line-height: 24px;
-    height: 96px;
-    width: 100%; 
-    margin-left: 2%;
-  
+  vertical-align: middle;
   }
-  
-  
-.heromore {
-    padding-top: 20px;
-    display: inline-block;
-    margin-left: 0;
-    margin-left: 2%;
-    font-size: 20px;
-}
-  
- .more-link {
-  font-size: 16px; 
+svg {
+  background-color: #eb8d3b;
 }
 
+.last-section {
+    height: 30%;
+    text-align: left;
+    color: #000;
+    background-color: #fff;
+    width: 100% !important;
 }
-**/
 
-
+.lastheader {
+  font-family:  'Telegraph', sans-serif; 
+  font-weight: 900 !important; 
+  font-size: 46px;
+  color: #000;
+  text-align: center;
+  display: block;
+  /** width: 686px; **/
+  height: 150px;
+  padding-bottom: 25px;
+  line-height: 53px;
+  vertical-align: middle;
+  padding-top: 0px !important;
+}
 
 
 
