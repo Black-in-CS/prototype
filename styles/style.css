@@ -306,7 +306,7 @@ html {
     font-size: 21px;
     font-family: 'Inter', sans-serif; 
     font-weight: 400 !important;     
-  padding-top: 95px !important;
+    padding-top: 95px !important;
     color: rgb(85, 85, 85);
     display: block;
     padding-top: 26.25px;
@@ -315,7 +315,7 @@ html {
     vertical-align: baseline;
     box-sizing: border-box;
     height: 96px;
-    width: 686px;    
+    width: 586px;    
     margin-left: 4%;
 }
 
