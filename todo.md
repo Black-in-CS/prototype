@@ -1,3 +1,3 @@
 - [ ] Need to make nav link underline only accesible on desktop devices?
 - [ ]  @media (min-width: 576px), @media (min-width: 768px), @media (min-width: 992px), @media (min-width: 1200px) 
-- [ ] Maybe for player video queries: @media only screen and (max-device-width: 480px) { @media (min-width: 1024px) {
+- [ ] Maybe for player video queries: @media (min-width:480px) { @media (min-width: 1024px) {
