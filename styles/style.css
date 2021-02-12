@@ -197,7 +197,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
  .aboutheader {
-   font-family: 'Telegraph', sans-serif;
+   font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
    font-weight: 900 !important;
    font-size: 46px;
    color: #fff;
@@ -239,7 +239,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
  }
 
  .lastheader {
-   font-family: 'Telegraph', sans-serif;
+   font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
    letter-spacing: -1.7px;
    font-weight: 900 !important;
    font-size: 46px;
