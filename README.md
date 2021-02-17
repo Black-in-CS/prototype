@@ -5,7 +5,7 @@ Based on the renowned front-end, mobile-first Bootstrap framework, as well as va
 
 > by Olutoba Ojo
 --------------------------------------------------------------------------------------------------------------
-<br><br>
+
 ## General Highlights:
 - Fully working contact and subscribe forms with validation
 - Live development environment powered by Browsersync
@@ -14,7 +14,7 @@ Based on the renowned front-end, mobile-first Bootstrap framework, as well as va
 ## Design & CSS Highlights:
 - Fully responsive web design, mobile friendly
 - Font Awesome CSS icon pack 
-- SVG decoration elements
+- SVG decoration elements (soon)
 - SVG divider elements 
 
 ## Javascript Libraries:
