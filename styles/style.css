@@ -379,3 +379,41 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
    letter-spacing: -1.575px;
    line-height: 57.75px;
  }
+
+@media (max-width: 1920px) {
+    .oops {
+      visibility: hidden;
+  }
+}
+
+@media (max-width: 1199px) {
+  .oops {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+    padding-bottom: 0px !important;
+  background:  rgba(255, 156, 69, .75) ;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    visibility: visible;
+}
+}
+.close {
+  transition: .5s;
+}
+.close:hover {
+  color: currentColor;
+}
+.close:focus {
+  outline: none !important;
+}
