@@ -290,7 +290,7 @@ svg {
   display: inline;
   float: right;
   margin-right: 12%;
-  font-family: "Telegraph", sans-serif;
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
   font-size: 21.75px;
   font-weight: 400;
   width: 45%;
@@ -333,7 +333,7 @@ svg {
 }
 
 .joinheader {
-  font-family: "Telegraph", sans-serif;
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
   font-weight: 900;
   text-align: center;
   margin: auto;
