@@ -345,7 +345,7 @@ svg {
 /*** Footer Section ***/
 .footer-section {
   font-family: "Inter", sans-serif !important;
-  height: auto;
+  height: 75%;
   padding-top: 100px;
   background: #eb8d3b;
   color: #fff;
