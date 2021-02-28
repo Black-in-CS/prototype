@@ -345,6 +345,39 @@ svg {
   line-height: 57.75px;
 }
 
+/*** Footer Section ***/
+.footer-section {
+  font-family: "Inter", sans-serif !important;
+  height: auto;
+  padding-top: 100px;
+  background: #eb8d3b;
+  color: #fff;
+  width: 100% !important;
+}
+
+.fsubhead {
+  font-family: "Inter", sans-serif;
+  font-size: 1.15em;
+  border-bottom: 2px solid #6b8cff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.footerlink {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ccdceb !important;
+  transition: 0.3s;
+}
+
+.footerlink:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+/* Responsive */
 @media (max-width: 1920px) {
   .oops {
     visibility: hidden;
