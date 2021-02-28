@@ -11,5 +11,7 @@
 - Privacy Policy
 > Consent, Information we collect, How we use your information, Log Files, Cookies and Web Beacons, Third Party Prvacy Policies, CCPA Privacy Rights, GDPR Data Protection Rights, Children's Information.
 
+- Portal page
+> General navigation page, card links to all parts of website
 ### Other
 > Basic fade page transition
