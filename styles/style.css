@@ -321,7 +321,7 @@ svg {
 .donatearrow {
   display: inline;
   padding-left: 2px;
-  transition: 0.12s ease-in;
+  transition: padding-left 0.12s ease-in;
 }
 
 .donatebutton:hover {
