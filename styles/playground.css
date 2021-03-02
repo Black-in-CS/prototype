@@ -9,5 +9,6 @@
 pre {
   overflow: auto !important;
   word-wrap: normal !important;
-  white-space: pre !important;
+  white-space: pre-wrap !important;
+  max-height: none !important; 
 }
