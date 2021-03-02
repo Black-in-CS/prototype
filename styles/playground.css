@@ -5,3 +5,9 @@
     margin-right: 25%;
     margin-bottom: 5%;
   }
+
+pre {
+  overflow: auto !important;
+  word-wrap: normal !important;
+  white-space: pre !important;
+}
