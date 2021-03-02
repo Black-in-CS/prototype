@@ -316,6 +316,7 @@ svg {
   width: 45%;
   line-height: 28.125px;
   margin-top: 5px;
+  transition: color .3s linear;
 }
 
 .donatearrow {
