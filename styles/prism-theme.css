@@ -46,7 +46,7 @@ code[class*="language-"]::mozselection {
 pre[class*="language-"] {
   padding: 1em;
   margin: .5em 0;
-  overflow: auto;
+  white-space: pre-wrap !important;
   background: #f2f2f2;
 }
 :not(pre) > code[class*="language-"] {
