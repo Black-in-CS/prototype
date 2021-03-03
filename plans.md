@@ -13,5 +13,11 @@
 
 - Portal page
 > General navigation page, card links to all parts of website
+
+- (JOTM) Joke Of The Month page?
+> Corny programming jokes, could be a large orange header centered on page, with response below
+> "Here's this month's programmer joke"
+
 ### Other
 > Basic fade page transition
+
