@@ -1,6 +1,6 @@
 ### Future Pages
 - Additional pages?
-> Partners, events, contact
+> events, contact
 
 - Credits
 > Images, illustrations, icons etc.
