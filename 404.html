@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <style>
+    body {
+      background: #eb8d3b;
+      color: #fff;
+      font-family: "Inter", sans-serif !important;
+    }
+
+    .errorhead {
+      font-size: 10rem;
+      font-weight: 900;
+      width: 100%;
+      display: flex;
+      margin: auto;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .textstuff {
+      width: auto;
+      height: 100px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .homeredirect {
+      color: white;
+    }
+    .homeredirect:hover {
+      color: white;
+      text-decoration: none;
+    }
+    small {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 2.5px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 403px) {
+      .errorhead {
+        font-size: 8rem;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="textstuff">
+      <h1 class="errorhead" data-aos="fade" data-aos-duration="400" data-aos-once="true">404</h1>
+      <p data-aos="fade" data-aos-duration="400" data-aos-once="true">Page not found</p>
+      <a class="homeredirect" href="#" data-aos="fade" data-aos-duration="600" data-aos-once="true"><small>Let's go back home</small></a>
+    </div>
+  </body>
+</html>
