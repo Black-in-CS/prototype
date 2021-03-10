@@ -27,6 +27,7 @@ overflow-y: scroll !important;
 }
 
 .load-container {
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
