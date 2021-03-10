@@ -34,7 +34,9 @@
     pointer-events: none;
 }
 
-
+main {
+z-index: 12;
+}
   .container {
     max-width: 1150px;
   }
