@@ -27,7 +27,6 @@ overflow-y: scroll !important;
 }
 
 .load-container {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
