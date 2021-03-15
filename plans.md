@@ -21,7 +21,8 @@
 ### Other
 > Basic fade page transition
 > typed js on a prism code line for homepage
-
+-Maybe Pageclip for homepage form 
+> https://github.com/marketplace/pageclip/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW42NzQ=#pricing-and-setup
 
 ### Intro to HTML
 - HTML
