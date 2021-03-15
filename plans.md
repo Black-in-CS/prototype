@@ -24,19 +24,12 @@
 
 
 ### Intro to HTML
-HTML
-Editors
-Tag Structure
-Text Structure
-Links
-Other tags
-Images
-Line Breaks
-Tables
-Making Things Gorgeous The Wrong Way
-Colors
-Width and Height
-Borders
-Text Styles
-The <head> tag
-Putting it all together so far
+- HTML
+- Editors
+- Tag Structure
+- Text Structure
+- Links
+- Other tags
+>Images, Line Breaks, Tables
+
+-Putting it all together so far
