@@ -38,6 +38,19 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
   color: rgb(33, 37, 41) !important;
 }
 
+/** Main v1 **/
+.footer-section {
+  font-family: "Inter", sans-serif !important;
+  height: auto;
+  padding-top: 100px;
+  background: #eb8d3b;
+  color: #fff;
+  width: 100% !important;
+  position: relative !important;
+  bottom: 0 !important;
+}
+
+
 /** Main **/
 @media (min-width: 1200px) {
   .container {
@@ -355,16 +368,6 @@ svg {
 }
 
 /*** Footer Section ***/
-.footer-section {
-  font-family: "Inter", sans-serif !important;
-  height: auto;
-  padding-top: 100px;
-  background: #eb8d3b;
-  color: #fff;
-  width: 100% !important;
-  position: absolute !important;
-  bottom: 1 !important;
-}
 
 .fsubhead {
   font-family: "Inter", sans-serif;
