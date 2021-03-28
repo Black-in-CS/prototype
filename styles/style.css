@@ -398,7 +398,7 @@ svg {
 /* Responsive */
 @media (max-width: 1920px) {
   .oops {
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -421,7 +421,7 @@ svg {
     margin: auto;
     position: fixed;
     bottom: 0;
-    visibility: visible;
+    display: block;
     justify-content: center;
     align-items: center;
   }
