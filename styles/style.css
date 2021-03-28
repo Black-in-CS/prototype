@@ -363,8 +363,8 @@ svg {
   background: #eb8d3b;
   color: #fff;
   width: 100% !important;
-  position: relative !important;
-  bottom: auto !important;
+  position: absolute !important;
+  bottom: 1 !important;
 }
 
 .fsubhead {
