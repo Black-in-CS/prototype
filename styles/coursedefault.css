@@ -3,7 +3,6 @@
     margin: 0;
     overflow-y: auto;
     overflow-x: hidden !important;
-    word-wrap: break;
   }
 
   body {
