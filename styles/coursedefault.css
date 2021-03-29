@@ -108,14 +108,15 @@ font-family: "Inter", sans-serif;
   padding-bottom: 7rem;
 }
 
-/** Instructors **/
+/** Default **/
 .panels2 {
   font-family: "Inter", sans-serif;
   background: #ededed;
   padding-top: 5vw;
-  margin-left: 5vw; 
-  margin-right: 0vw !important;
+  margin-left: 2vw; 
+  margin-right: 2vw !important;
 }
+
 /** FAQ Section **/
 .panels {
   font-family: "Inter", sans-serif;
