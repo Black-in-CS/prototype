@@ -19,15 +19,15 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 html {
   width: 100%;
   height: 100%;
-  overflow-x: auto !important;
-  overflow-y: auto !important;
   scroll-behavior: smooth;
-} 
+}
 
 body {
-  margin: 0;
-  width: auto;
+  width: 100%;
   height: 100%;
+  margin: 0;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
 }
 
 /** Nav **/
@@ -43,29 +43,29 @@ body {
   text-align: center;
   content-align: center;
   vertical-align: middle;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400px;
 }
-  
-.nav-menu-top { 
-    padding-top: 1.563rem; 
+
+.nav-menu-top {
+  padding-top: 1.563rem;
 }
 
 .navtitle {
   margin-top: 1.5rem;
   color: #ed8e3b !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2rem;
 }
-.nav-item  .nav-link  {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    background-color: transparent;
-    padding-bottom: calc(1px * 2);
-    transition: .7s ease;
-    cursor: pointer;
+.nav-item .nav-link {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  background-color: transparent;
+  padding-bottom: calc(1px * 2);
+  transition: 0.7s ease;
+  cursor: pointer;
 }
 
 .nav-item .nav-link:hover {
@@ -76,36 +76,40 @@ body {
   outline: none;
 }
 
+.dropdown {
+  font-family: "Inter", sans-serif !important;
+}
+
 .dropdown-item:hover {
-    background-color: #ed8e3b !important;
-    color: #fff;
-  }
+  background-color: #ed8e3b !important;
+  color: #fff;
+}
 
 @media (max-width: 992px) {
   .nav-link {
     margin-left: 2rem;
   }
-  
+
   .navbar-nav {
     margin-top: 1rem;
   }
-  
+
   .nav-link {
     font-weight: 600;
     color: #fff !important;
   }
-  
+
   .nav-item .nav-link:hover {
     color: #fff !important;
   }
-  
+
   .collapse {
     background: #ed8e3b !important;
     padding-bottom: 50px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
   }
-  
+
   .navbar-collapse {
     background: #ed8e3b !important;
     padding-bottom: 50px;
@@ -119,37 +123,34 @@ body {
     color: #fff;
     margin-left: 2rem;
   }
-  
+
   .dropdown-item {
     color: #fff;
     font-weight: 600;
   }
-  
   .dropdown-item:hover {
     background-color: #fff !important;
     color: #ed8e3b;
   }
 }
 
-
-
 /** Hero Section **/
 .hero-section {
-    height: auto;
-    margin-top: 5rem;
-    margin-bottom: 15rem;
-    text-align: left;
-    background: #fff;
-} 
-   
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 15rem;
+  text-align: left;
+  background: #fff;
+}
+
 .heromain {
-    margin-left: 2rem !important;
-    margin-right: 2rem;
+  margin-left: 2rem !important;
+  margin-right: 2rem;
 }
 
 .heroheader {
-  font-family: 'Inter', sans-serif; 
-  font-weight: 900 !important; 
+  font-family: "Inter", sans-serif;
+  font-weight: 900 !important;
   font-size: 2.875rem;
   color: #eb8d3b;
   display: block;
@@ -161,8 +162,8 @@ body {
 
 .herocontent {
   font-size: 1.313rem;
-  font-family: 'Inter', sans-serif; 
-  font-weight: 400 !important; 
+  font-family: "Inter", sans-serif;
+  font-weight: 400 !important;
   color: rgb(85, 85, 85);
   position: relative;
 }
@@ -173,19 +174,19 @@ body {
 }
 
 .heromore {
-    display: block;
-    vertical-align: baseline;
-    margin-top: 3rem;
-    font-size: 1.25rem;
-    font-family: 'Inter', sans-serif; 
-    font-weight: 400 !important;  
+  display: block;
+  vertical-align: baseline;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400 !important;
 }
 
 .more-link {
   font-size: 20px;
   font-weight: 600;
   color: #000;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
   background-color: #d9d9d9;
   border: 12px solid #d9d9d9;
   border-radius: 25px;
@@ -196,7 +197,7 @@ body {
   color: #000;
   display: inline;
   padding-left: 2px;
-  transition: .12s ease-in;
+  transition: 0.12s ease-in;
 }
 
 .more-link:hover {
@@ -205,8 +206,8 @@ body {
 }
 
 .more-link:hover .arrowm {
-    color: #000;
-    padding-left: 8px;
+  color: #000;
+  padding-left: 8px;
 }
 
 @media (max-width: 1200px) {
@@ -219,8 +220,8 @@ body {
   .heromore {
     margin-top: 2rem;
   }
-} 
- 
+}
+
 @media (max-width: 480px) {
   .heroheader {
     font-size: 1.95rem;
@@ -232,21 +233,21 @@ body {
   .heromore {
     margin-top: 1rem;
   }
-} 
+}
 
 @media (max-width: 596px) {
   .heromain {
     margin-left: 0rem !important;
     margin-right: 0rem;
+  }
 }
-} 
 /** About Byline **/
 .about-section {
-    height: auto;
-    padding-top: 9.375rem;
-    padding-bottom: 9.375rem;
-    text-align: center;
-    background-color: #eb8d3b;
+  height: auto;
+  padding-top: 9.375rem;
+  padding-bottom: 9.375rem;
+  text-align: center;
+  background-color: #eb8d3b;
 }
 
 .abouttext {
@@ -257,34 +258,33 @@ body {
 }
 
 .aboutheader {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 2.313rem;
   vertical-align: middle;
-  font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
-  font-weight: 900; 
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+  font-weight: 900;
   font-size: 2.875rem;
   text-align: center;
   color: #fff;
- }
+}
 
 .aboutdesc {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
   line-height: 2rem;
   vertical-align: middle;
-  font-family:  'Inter', sans-serif; 
-  font-weight: 400 !important; 
+  font-family: "Inter", sans-serif;
+  font-weight: 400 !important;
   font-size: 16px;
   color: #fff;
   text-align: center;
 }
-
 .aboutimgpos {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
   position: relative;
   z-index: 5 !important;
@@ -300,37 +300,36 @@ body {
 
 @media (max-width: 1288px) {
   .aboutimgpos {
-  margin-top: -22rem;
-}
+    margin-top: -22rem;
+  }
 }
 
 @media (max-width: 992px) {
   .aboutimgpos {
-  margin-top: -20rem;
-}
+    margin-top: -20rem;
+  }
   .aboutimg {
-  height: 20rem;
-}
+    height: 20rem;
+  }
 }
 
 @media (max-width: 768px) {
   .aboutimgpos {
-  margin-top: -16rem;
-}
+    margin-top: -16rem;
+  }
   .aboutimg {
-  height: 18rem;
-}
+    height: 18rem;
+  }
 }
 
 @media (max-width: 567px) {
   .aboutimgpos {
-  display: none;
-}
+    display: none;
+  }
   .aboutimg {
-  display: none;
+    display: none;
+  }
 }
-}
-
 
 .aboutsvg {
   position: relative;
@@ -339,11 +338,11 @@ body {
 }
 
 .quotation-section {
-    height: auto;
-    margin-bottom: 6rem;
-    text-align: center;
-    color: rgb(33, 37, 41);
-    background-color: #fff;
+  height: auto;
+  margin-bottom: 6rem;
+  text-align: center;
+  color: rgb(33, 37, 41);
+  background-color: #fff;
 }
 
 .quotationtext {
@@ -352,12 +351,12 @@ body {
 }
 
 .quotationheader {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
   height: auto;
-  font-family: Arial Black,Arial Bold,Gadget,sans-serif;  
-  font-weight: 900 !important; 
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+  font-weight: 900 !important;
   font-size: 46px;
   color: rgb(33, 37, 41);
   text-align: center;
@@ -365,13 +364,12 @@ body {
   padding-bottom: 25px;
   line-height: 43px;
   vertical-align: middle;
-
 }
 .qhauthor {
   color: rgb(33, 37, 41);
   margin-top: 105px;
   display: block;
-  font-family:  'Telegraph', sans-serif; 
+  font-family: "Telegraph", sans-serif;
   font-size: 30px;
 }
 
@@ -379,29 +377,28 @@ body {
   color: rgb(33, 37, 41);
   margin-top: 15px;
   display: block;
-  font-family:  'Telegraph', sans-serif; 
+  font-family: "Telegraph", sans-serif;
   font-size: 19px;
 }
 
 .features-section {
   font-family: "Inter", sans-serif;
-  height: 100%;
+  height: auto;
   background-color: #d9d9d9;
   width: 100% !important;
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
 }
 
 .donate-section {
   font-family: "Inter", sans-serif;
-  height: 75%;
+  height: auto;
   background-color: #fff;
-  width: 100% !important;
-  padding-top: 100px;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
 }
 
 .donateimage {
-  float: left;
-  width: 300px;
-  margin-left: 14.5%;
   border-radius: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   box-shadow: rgba(233, 236, 239, 0.5) 7px 7px 0px 0px;
@@ -409,65 +406,61 @@ body {
 }
 
 .donateheader {
-  display: inline;
-  float: right;
-  margin-right: 12%;
   font-family: Arial Black, Arial Bold, Gadget, sans-serif;
   font-size: 37.5px;
   font-weight: 600;
-  width: 45%;
+  width: auto;
   letter-spacing: -1.125px;
   line-height: 45px;
   margin-top: 0;
   color: rgb(33, 37, 41);
+  float: left;
 }
 
 .donatedesc {
   color: rgb(33, 37, 41);
-  display: inline;
-  float: right;
-  margin-right: 12%;
+  display: block;
+  float: left;
   font-family: "Telegraph", sans-serif;
   font-size: 21.75px;
   font-weight: 400;
-  width: 45%;
+  width: auto;
   line-height: 28.125px;
   margin-top: 35px;
 }
 
 .donatebutton {
   color: rgb(33, 37, 41);
-  display: inline;
-  float: right;
-  margin-right: 12%;
+  display: block;
+  float: left;
   font-family: "Inter", sans-serif;
   font-size: 21.75px;
   font-weight: 800;
-  width: 45%;
+  width: auto;
   line-height: 28.125px;
   margin-top: 5px;
-  transition: color 0.3s linear;
 }
 
 .donatearrow {
   display: inline;
   padding-left: 2px;
-  transition: padding-left 0.12s ease-in;
+  transition: 0.12s ease-in;
 }
 
 .donatebutton:hover {
   color: #eb8d3b;
   text-decoration: none;
 }
-
 .donatebutton:hover .donatearrow {
   padding-left: 8px;
 }
 
 .join-section {
-  height: 85%;
+  height: auto;
+  margin-bottom: 10rem;
   background-color: #fff;
-  width: 100% !important;
+  justify-content: center;
+  align-items: center;
 }
 
 .joinheader {
@@ -478,9 +471,16 @@ body {
   color: rgb(33, 37, 41);
   display: block;
   font-size: 48.5px;
-  height: 57px;
+  height: auto;
   letter-spacing: -1.575px;
-  line-height: 57.75px;
+}
+
+.form {
+  margin-top: 0.5rem;
+  font-family: "Inter", sans-serif;
+  padding: 1rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
 }
 
 /*** Footer Section ***/
