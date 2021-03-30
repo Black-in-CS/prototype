@@ -390,6 +390,66 @@ body {
   padding-bottom: 1.563rem;
 }
 
+.card-hover {
+  background-color: #ededed !important;
+  transition: .4s;
+}
+
+.card-hover:hover svg {
+  transition: .4s;
+ fill: #fff !important;
+}
+   /*Card changes color on hover*/
+    .card-hover:hover {
+      background-color:#eb8d3b !important;
+      color:white !important;
+      cursor:default;
+    }
+
+    /*Subtext changes on card hover*/
+    .card-hover:hover .text-muted{
+      color:white !important;
+    }
+
+    /*Icon changes on card hover*/
+    .card-hover:hover .bi{
+      color:white !important;
+    }
+
+
+
+.p-2{
+ border-radius: 15px !important;
+}  
+
+.featuresheader {
+  padding-top: 25px;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  color: rgb(33, 37, 41);
+  display: block;
+  font-size: 48.5px;
+  height: auto;
+  margin-bottom: 2rem;
+  letter-spacing: -1.575px;
+  line-height: 57.75px;
+}
+
+.featuresdesc {
+  font-family:  'Inter', sans-serif; 
+  font-weight: 400 !important; 
+  font-size: 16px;
+  color: rgb(33, 37, 41);
+  margin: auto;
+  width: auto;
+  text-align: center;
+  padding-bottom: 0px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
 .donate-section {
   font-family: "Inter", sans-serif;
   height: auto;
