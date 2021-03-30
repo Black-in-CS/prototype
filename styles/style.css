@@ -489,6 +489,16 @@ body {
 }
 
 /*** Footer Section ***/
+.footer-section {
+  font-family: "Inter", sans-serif !important;
+  height: auto;
+  padding-top: 100px;
+  background: #eb8d3b;
+  color: #fff;
+  width: 100% !important;
+  position: relative !important;
+  bottom: 0 !important;
+}
 
 .fsubhead {
   font-family: "Inter", sans-serif;
