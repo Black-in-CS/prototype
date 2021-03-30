@@ -212,7 +212,6 @@ body {
 @media (max-width: 1200px) {
   .heroheader {
     font-size: 2.5rem;
-    
   }
   .herocontent {
     font-size: 1.25rem;
@@ -296,7 +295,7 @@ body {
 .aboutimg {
   border-radius: 5px;
   width: auto;
-  height: 28rem;
+  height: 22rem;
 }
 
 @media (max-width: 1288px) {
