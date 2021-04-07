@@ -242,6 +242,7 @@ body {
     margin-right: 0rem;
   }
 }
+
 /** About Byline **/
 .about-section {
   height: auto;
@@ -354,6 +355,7 @@ body {
   background-color: #eb8d3b !important;
 }
 
+/** Quotation Section **/
 .quotation-section {
   height: auto;
   margin-bottom: 6rem;
@@ -398,6 +400,7 @@ body {
   font-size: 19px;
 }
 
+/** Features Section **/
 .features-section {
   font-family: "Inter", sans-serif;
   height: auto;
@@ -465,6 +468,7 @@ body {
   border-radius: 15px !important;
 }
 
+/** Donate Section **/
 .donate-section {
   font-family: "Inter", sans-serif;
   height: auto;
@@ -514,12 +518,13 @@ body {
   width: auto;
   line-height: 28.125px;
   margin-top: 5px;
+  transition: color .3s ease;
 }
 
 .donatearrow {
   display: inline;
   padding-left: 2px;
-  transition: 0.12s ease-in;
+  transition: padding-left .3s ease;
 }
 
 .donatebutton:hover {
@@ -530,6 +535,7 @@ body {
   padding-left: 8px;
 }
 
+/** Join Section **/
 .join-section {
   height: auto;
   margin-bottom: 10rem;
