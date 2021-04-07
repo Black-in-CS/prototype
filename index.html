@@ -51,6 +51,7 @@ Thanks for taking a peek! ;) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://black-in-cs.github.io/prototype/styles/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.1"></script>
 
     <!-- Facebook Meta -->
@@ -279,12 +280,14 @@ Thanks for taking a peek! ;) -->
           </div>
 
           <div class="col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="donateheader"><b>Our work has never been more important.</b></h2>
-            <p class="donatedesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sit amet justo malesuada dapibus.</p>
-            <a href="#" class="donatebutton">
-              Give
-              <div class="donatearrow">-></div>
-            </a>
+            <div data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+              <h2 class="donateheader"><b>Our work has never been more important.</b></h2>
+              <p class="donatedesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sit amet justo malesuada dapibus.</p>
+              <a href="#" class="donatebutton">
+                Give
+                <div class="donatearrow">-></div>
+              </a>
+             </div>
           </div>
         </div>
       </div>
@@ -364,6 +367,8 @@ Thanks for taking a peek! ;) -->
         typeSpeed: 40,
         loop: false,
       });
+      
+      AOS.init();
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
