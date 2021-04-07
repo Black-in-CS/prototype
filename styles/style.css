@@ -598,7 +598,7 @@ body {
   color: #fff !important;
 }
 
-/* Responsive */
+/* Oops banner */
 @media (max-width: 1920px) {
   .oops {
     display: none;
@@ -623,12 +623,11 @@ body {
     font-weight: 400;
     margin: auto;
     position: fixed;
+    z-index: 1000;
     bottom: 0;
     display: block;
     justify-content: center;
     align-items: center;
-    position: initial;
-    z-index: 10;
   }
 }
 
