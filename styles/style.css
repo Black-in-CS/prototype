@@ -259,30 +259,46 @@ body {
 }
 
 .aboutheader {
-  display: flex;
-  justify-content: center;
+  display: flex; 
+  justify-content: center; 
   align-items: center;
   margin-bottom: 2.313rem;
   vertical-align: middle;
-  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
-  font-weight: 900;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+  font-weight: 900; 
   font-size: 2.875rem;
   text-align: center;
   color: #fff;
+  margin-left: 10vw;
+  margin-right: 10vw;
+ }
+
+@media (max-width: 992px) {
+  .aboutheader {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+    .aboutdesc {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
 }
 
 .aboutdesc {
-  display: flex;
-  justify-content: center;
+  display: flex; 
+  justify-content: center; 
   align-items: center;
   line-height: 2rem;
   vertical-align: middle;
-  font-family: "Inter", sans-serif;
-  font-weight: 400 !important;
+  font-family:  'Inter', sans-serif; 
+  font-weight: 400 !important; 
   font-size: 16px;
   color: #fff;
   text-align: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
 }
+
 .aboutimgpos {
   display: flex;
   justify-content: center;
