@@ -10,6 +10,7 @@
 
 - Privacy Policy
 > Consent, Information we collect, How we use your information, Log Files, Cookies and Web Beacons, Third Party Prvacy Policies, CCPA Privacy Rights, GDPR Data Protection Rights, Children's Information.
+> https://htmlstream.com/front/page-privacy.html
 
 - Portal page
 > General navigation page, card links to all parts of website
@@ -17,6 +18,9 @@
 - (JOTM) Joke Of The Month page?
 > Corny programming jokes, could be a large orange header centered on page, with response below
 > "Here's this month's programmer joke"
+
+- Add Page Status Page
+> https://htmlstream.com/front/page-status.html# 
 
 ### Other
 > Basic fade page transition
