@@ -88,7 +88,7 @@ body {
 
 @media (max-width: 992px) {
   .navbar-nav {
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-bottom: 3.125rem;
   }
   
@@ -109,8 +109,7 @@ body {
   }
   
   .navbar-collapse {
-    background: #ed8e3b !important;
-    
+    background: #ed8e3b !important;    
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
   }
